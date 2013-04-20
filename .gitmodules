@@ -1,0 +1,18 @@
+[submodule "framework"]
+	path = framework
+	url = git@github.com:phproad/phpr-framework.git
+[submodule "modules/cms"]
+	path = modules/cms
+	url = git@github.com:phproad/phpr-module-cms.git
+[submodule "modules/user"]
+	path = modules/user
+	url = git@github.com:phproad/phpr-module-user.git
+[submodule "modules/notify"]
+	path = modules/notify
+	url = git@github.com:phproad/phpr-module-notify.git
+[submodule "modules/core"]
+	path = modules/core
+	url = git@github.com:phproad/phpr-module-core.git
+[submodule "modules/admin"]
+	path = modules/admin
+	url = git@github.com:phproad/phpr-module-admin.git
