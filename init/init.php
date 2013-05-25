@@ -21,6 +21,6 @@ if (!isset($APP_CONF))
 
 $APP_CONF['UPDATE_SEQUENCE'] = array('core', 'email', 'admin', 'cms', 'user', 'payment', 'service');
 $APP_CONF['DB_CONFIG_MODE'] = 'insecure';
-$APP_CONF['UPDATE_CENTER'] = 'phproad.com/phpr_update_gateway';
+$APP_CONF['UPDATE_CENTER'] = 'api.phproad.com/update_gateway';
 $APP_CONF['JAVASCRIPT_URL'] = "framework/assets/scripts/js";
 $APP_CONF['PHPR_URL'] = "framework";
