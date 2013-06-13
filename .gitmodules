@@ -16,3 +16,6 @@
 [submodule "modules/admin"]
 	path = modules/admin
 	url = git@github.com:phproad/phpr-module-admin.git
+[submodule "modules/location"]
+	path = modules/location
+	url = git@github.com:phproad/phpr-module-location.git
