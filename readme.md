@@ -2,10 +2,14 @@
 
 PHPR is a OOP MVC web application framework.
 
+## Documentation
+
+* [PHPR Docs](http://phproad.com/docs) 
+
 ## Features
 
 * Modular based design approach
-* Deferred session support
+* Deferred bindings
 * Behaviors / Class mixins
 
 ## Requirements
