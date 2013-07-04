@@ -111,6 +111,16 @@ class Application extends Phpr_Controller
 					if ($url != $action)
 						continue;
 
+					// Support for array($obj, 'method')
+					if (is_array($method) && count($method) > 1)
+					{
+						$obj = $method[0];
+						$method = $method[1];
+						$obj->$method($uri_parts);
+						return true;
+					}
+
+					// Support for 'classname::method'
 					if (strpos($method, '::'))
 					{
 						$parts = explode('::', $method);
@@ -121,6 +131,7 @@ class Application extends Phpr_Controller
 						return true;
 					}
 
+					// Local method
 					$module->$method($uri_parts);
 					return true;
 				}
@@ -142,4 +153,3 @@ class Application extends Phpr_Controller
 	public function OnException() { return $this->on_exception(); }
 	public function On404() { return $this->on_404(); }    
 }
-
