@@ -19,3 +19,6 @@
 [submodule "modules/location"]
 	path = modules/location
 	url = git@github.com:phproad/phpr-module-location.git
+[submodule "modules/blog"]
+	path = modules/blog
+	url = git@github.com:phproad/phpr-module-blog.git
